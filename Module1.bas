@@ -10,6 +10,8 @@ Dim strName As String
 strName = "Anthony"
 MsgBox strName
 
+MsgBox SayHello("Anthony")
+
 
 End Sub
 
