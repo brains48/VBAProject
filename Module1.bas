@@ -12,3 +12,21 @@ MsgBox strName
 
 
 End Sub
+
+Function SayHello(strInput As String) As Boolean
+
+On Error GoTo errorhandler
+
+SayHello = False
+MsgBox strInput
+
+
+Endgame:
+SayHello = True
+Exit Function
+
+errorhandler:
+SayHello = False
+Exit Function
+
+End Function
