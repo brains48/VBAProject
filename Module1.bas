@@ -11,6 +11,7 @@ strName = "Anthony"
 MsgBox strName
 
 MsgBox SayHello("Anthony")
+MsgBox SayHello("Peter")
 
 
 End Sub
