@@ -12,6 +12,7 @@ MsgBox strName
 
 MsgBox SayHello("Anthony")
 MsgBox SayHello("Peter")
+MsgBox SayHello("Digitas")
 
 
 End Sub
